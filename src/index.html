@@ -1,37 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="My first Portfolio" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- in your header -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="main.css"> -->
+
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">My Portfolio</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+
+    <header class="main-header">
+        <nav class="main-header-nav-bar">
+            <ul class="main-header-nav-links">
+                <li class="main-header-nav-link"><a class="navbar-brand" href="#">My Portfolio</a></li>
+                <li class="main-header-nav-link"><a href="#about"> About </a></li>
+                <li class="main-header-nav-link"><a href="#projects"> Projects </a></li>
+                <li class="main-header-nav-link"><a href="#contact" href=""> Contact </a></li>
+            </ul>
+        </nav>
+
+        <button class="btn btn-theme btn-sm">Download CV</button>
+    </header>
 
     <main>
+
         <section id="about">
             <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.</p>
+        </section>
+
+        <section class="skills-showcase">
+            <ul>
+                <li><i class="devicon-html5-plain-wordmark colored"></i></li>
+                <li><i class="devicon-css3-plain-wordmark colored"></i></li>
+                <li><i class="devicon-javascript-plain colored"></i></li>
+                <li><i class="devicon-react-original-wordmark colored"></i></li>
+                <li><i class="devicon-sass-original colored"></i></li>
+                <li><i class="devicon-nodejs-plain-wordmark colored"></i></li>
+                <li><i class="devicon-git-plain-wordmark colored"></i></li>
+                <li><i class="devicon-figma-plain colored"></i></li>
+                <li><i class="devicon-github-original-wordmark"></i></li>
+                <li><i class="devicon-devicon-plain-wordmark colored"></i></li>
+                <li><i class="devicon-python-plain-wordmark colored"></i></li>
+            </ul>
         </section>
 
         <section id="projects">
@@ -82,9 +107,6 @@
 
         </section>
 
-
-
-
         <section id="contact">
             <h2>Contact Me</h2>
             <form>
@@ -97,11 +119,13 @@
                 <button type="submit">Send</button>
             </form>
         </section>
+
     </main>
 
     <footer>
         <p>&copy; 2023 My first Portfolio</p>
     </footer>
+
 </body>
 
 </html>
