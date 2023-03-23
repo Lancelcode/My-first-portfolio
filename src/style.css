@@ -189,8 +189,8 @@ padding: 2em;
   button:active {
     transform: scale(0.9);
   }
-  
-  .btn-cv {
+
+  .btn-secondary {
 
     color: #ffffff;
     border: 0;
