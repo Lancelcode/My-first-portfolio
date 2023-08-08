@@ -1,4 +1,4 @@
-# My-first-portfolio
+# My-first-portfolio-template
 
 The purpose of my project is to provide a base for beginners who are creating their first portfolio.
 
