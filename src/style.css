@@ -224,3 +224,15 @@ textarea {
     background-color: var(--accent-color);
     color: #fff;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: var(--bg-color);
+    border-top: 1px solid #222;
+    margin-top: 60px;
+}
