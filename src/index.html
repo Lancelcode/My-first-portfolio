@@ -20,25 +20,34 @@
 <body>
 
     <header class="main-header">
+        <a href="#" class="logo">Djiby</a>
         <nav class="main-header-nav-bar">
             <ul class="main-header-nav-links">
-                <li class="main-header-nav-link"><a class="navbar-brand" href="#">Home</a></li>
-                <li class="main-header-nav-link"><a href="#about"> About </a></li>
-                <li class="main-header-nav-link"><a href="#projects"> Projects </a></li>
-                <li class="main-header-nav-link"><a href="#skills">Skills</a></li>
-                <li class="main-header-nav-link"><a href="#contact"> Contact </a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <button class="btn-secondary">Download CV</button>
+        <div class="header-actions">
+            <button id="theme-toggle">🌙</button>
+            <button class="btn-secondary">Download CV</button>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
     </header>
 
     <main>
         <section id="hero">
-            <h1>Welcome to My Portfolio</h1>
+            <h1 id="typewriter"></h1>
             <p>Hi, I'm Djiby, a software developer.</p>
             <a href="#projects" class="btn-primary">View my work</a>
         </section>
-        <section id="about">
+        <section id="about" class="fade-in">
             <h2>About Me</h2>
             <img src="img/persona-icon.jpg" alt="persona avatar">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -49,7 +58,7 @@
                 deserunt mollit anim id est laborum.</p>
         </section>
 
-        <section id="skills" class="skills-showcase">
+        <section id="skills" class="skills-showcase fade-in">
             <h2>Skills</h2>
             <ul>
                 <li><i class="devicon-html5-plain-wordmark colored"></i></li>
@@ -61,7 +70,7 @@
             </ul>
         </section>
 
-        <section id="projects">
+        <section id="projects" class="fade-in">
             <h2>Projects</h2>
             <div class="project-grid">
                 <div class="project">
@@ -116,7 +125,7 @@
 
         </section>
 
-        <section id="contact">
+        <section id="contact" class="fade-in">
             <h2>Contact Me</h2>
             <form>
                 <label for="name">Name:</label>
