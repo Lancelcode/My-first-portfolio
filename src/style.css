@@ -85,3 +85,44 @@ nav a:hover {
 .btn-primary:hover {
     opacity: 0.8;
 }
+
+#about {
+    padding: 100px 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 24px;
+}
+
+#skills {
+    padding: 100px 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#skills h2 {
+    margin-bottom: 40px;
+}
+
+.skills-showcase ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 20px;
+}
+
+.skills-showcase li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-showcase i {
+    font-size: 3rem;
+}
